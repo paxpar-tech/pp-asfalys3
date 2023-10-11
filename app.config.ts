@@ -34,10 +34,11 @@ export default defineAppConfig({
     },
 
     header: {
-      logo: true,
+      logo: false,
       showLinkIcon: true,
       exclude: [],
-      fluid: true
+      fluid: true,
+      title: 'asfalys.document.legal'
     },
 
     footer: {
@@ -45,6 +46,8 @@ export default defineAppConfig({
         text: 'Powered by paxpar.tech',
         href: 'https://paxpar.tech'
       }
-    }
+    },
+
+    titleTemplate: '%s'
   }
 })

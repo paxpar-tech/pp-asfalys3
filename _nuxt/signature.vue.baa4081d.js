@@ -1,0 +1,1 @@
+import{u as r}from"./useProfile.0d0b3178.js";import{d as a,ap as n,b as o,c as s}from"./entry.b5be8022.js";const u=a({__name:"signature",async setup(_){let e,t;return[e,t]=n(()=>r()),e=await e,t(),(c,p)=>(o(),s("h1",null,"Signature providers"))}});export{u as _};

@@ -1,1 +1,0 @@
-import{d as s,b as o,c as t,e as c,am as n}from"./entry.b5be8022.js";const l={class:"scroll-section scroll-section-v300"},a={class:"sticky"},d=s({__name:"scrollSection",setup(_){return(e,r)=>(o(),t("div",l,[c("div",a,[n(e.$slots,"default")])]))}});export{d as default};

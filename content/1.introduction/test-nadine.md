@@ -14,20 +14,21 @@ def: |
       valise_mission_Alcove_EE --> valise_mission_EdDup           
       valise_mission_EdDup --> dossier_entr_EdDup
 
-      dossier_ent_Alcove_EE --> passeport
-      dossier_ent_Alcove_EE --> attest_urssaf
-      dossier_ent_Alcove_EE --> kbis1[[extrait k-bis]]
-      dossier_ent_Alcove_EE --> atetst_assu
-      dossier_ent_Alcove_EE --> modeop
+      dossier_ent_Alcove_EE --> passeport_Paul_Alcove
+      dossier_ent_Alcove_EE --> passeport_Alain_Alcove      
+      dossier_ent_Alcove_EE --> attest_urssaf_Alcove
+      dossier_ent_Alcove_EE --> kbis_Alcove
+      dossier_ent_Alcove_EE --> atetst_assu_Alcove
+      dossier_ent_Alcove_EE --> modeop_Alcove
 
 
-      dossier_ent_EdDup --> passeport
-      dossier_ent_EdDup --> attest_urssaf
-      dossier_ent_EdDup --> kbis1[[extrait k-bis]]
-      dossier_ent_EdDup --> atetst_assu
-      dossier_ent_EdDup --> modeop    
+      dossier_ent_EdDup --> passeport_EdDup
+      dossier_ent_EdDup --> attest_urssaf_EdDup
+      dossier_ent_EdDup --> kbis_EdDup
+      dossier_ent_EdDup --> atetst_assu_EdDup
+      dossier_ent_EdDup --> modeop_EdDup    
     
-    
+      passeport_Alcove    
     
       valise_mission_Vinci_EE --> dossier_ent_Vinci_EE 
 
@@ -69,16 +70,80 @@ def: |
       passeport_Alain --> fiche_poste_Alain
       passeport_Alain --> cert_aptitude_Alain
 
-    carnet_Paul --> attestation_soudeur
-    carnet_Paul --> attestation_SCN2
-    carnet_Paul --> attestation_cariste
-    carnet_Paul --> attestation_nacelle
-    carnet_Alain --> attestation_électrique
-    carnet_Alain --> attestation_SCN2
-    carnet_Alain --> attestation_cariste
-    carnet_Alain --> attestation_nacelle
+      carnet_Paul --> attestation_soudeur
+      carnet_Paul --> attestation_SCN2
+      carnet_Paul --> attestation_cariste
+      carnet_Paul --> attestation_nacelle
+      carnet_Alain --> attestation_électrique
+      carnet_Alain --> attestation_SCN2
+      carnet_Alain --> attestation_cariste
+      carnet_Alain --> attestation_nacelle
 
+      valise_mission_EdDup --> dossier_entr_EdDup
+      dossier_entr_EdDup --> passeport_Edouard  
+      dossier_entr_EdDup --> attestation_urssaf_EdDup
+      dossier_entr_EdDup --> Kbis_EdDup
+      dossier_entr_EdDup --> attestation_assurance_EdDup
+      dossier_entr_EdDup --> mode_opératoire_EdDup
 
+      passeport_Edouard --> carnet_Edouard  
+      passeport_Edouard --> fiche_de_poste_Edouard
+      passeport_Edouard --> certificat_aptitude_Edouard 
+
+      carnet_Edouard --> attestation_électrique    
+      carnet_Edouard --> attestation_soudeur
+      carnet_Edouard --> attestation_SCN2
+
+      valise_mission_Vinci_EE --> dossier_ent_Vinci_EE
+      valise_mission_Vinci_EE --> valise_mission_Daney
+      dossier_ent_Vinci_EE --> passeport_Gérard  
+      dossier_ent_Vinci_EE --> passeport_Nadège
+      dossier_ent_Vinci_EE --> attestation_urssaf_Vinci
+      dossier_ent_Vinci_EE --> Kbis_Vinci
+      dossier_ent_Vinci_EE --> attestation_assurance_Vinci
+      dossier_ent_Vinci_EE --> mode_opératoire_Vinci
+
+      valise_mission_Daney --> dossier_entreprise_Daney
+      valise_mission_Daney --> valise_mission_Buripanera 
+
+      dossier_entreprise_Daney --> passeport_Sophie  
+      dossier_entreprise_Daney --> attestation_urssaf_Daney
+      dossier_entreprise_Daney --> Kbis_Daney
+      dossier_entreprise_Daney --> attestation_assurance_Daney
+      dossier_entreprise_Daney --> mode_opératoire_Daney
+
+      passeport_Sophie --> carnet_Sophie  
+      passeport_Sophie --> fiche_de_poste_Sophie
+      passeport_Sophie --> certificat_aptitude_Sophie
+
+      carnet_Sophie --> attestation_électrique    
+      carnet_Sophie --> attestation_soudeur
+      carnet_Sophie --> attestation_SCN2
+      carnet_Sophie --> attestation_cariste
+      carnet_Sophie --> attestation_fimo           
+
+      valise_mission_Buripanera --> dossier_entreprise_Buripanera
+      dossier_entreprise_Buripanera --> passeport_Adrien  
+      dossier_entreprise_Buripanera --> passeport_Peggy
+      dossier_entreprise_Buripanera --> attestation_urssaf_Buripanera
+      dossier_entreprise_Buripanera --> Kbis_Buripanera
+      dossier_entreprise_Buripanera --> attestation_assurance_Buripanera
+      dossier_entreprise_Buripanera --> mode_opératoire_Buripanera
+
+      passeport_Adrien --> carnet_Adrien  
+      passeport_Adrien --> fiche_de_poste_Adrien
+      passeport_Adrien --> certificat_aptitude_Adrien
+      passeport_Peggy --> carnet_Peggy  
+      passeport_Peggy --> fiche_de_poste_Peggy
+      passeport_Peggy --> certificat_aptitude_Peggy
+
+      carnet_Adrien --> attestation_soudeur
+      carnet_Adrien --> attestation_cariste 
+      carnet_Adrien --> attestation_SCN2
+      carnet_Peggy --> attestation_SCN2
+      carnet_Peggy --> attestation_nacelle      
+      carnet_Peggy --> attestation_électrique                                                  
+  
 ---
 ::
 
@@ -86,6 +151,7 @@ def: |
 -----------------------------------------------------------
 
 # Graphe carnets
+
 ::ppw-mermaid
 ---
 def: |
@@ -282,6 +348,17 @@ def: |
 ::
 
 ----------------------------------------------------
+
+::ppw-mermaid
+---
+def: |
+    flowchart TD
+    passeport_Sophie --> carnet_Sophie  
+    passeport_Sophie --> fiche_de_poste_Sophie
+    passeport_Sophie --> certificat_aptitude_Sophie
+
+---
+::
 
 # Dossier Entreprise Alcove EE
 

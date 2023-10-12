@@ -1,1 +1,0 @@
-import{k as t,c as n,b as s,F as _,e}from"./entry.0fe9d8c9.js";const c={},o=e("h1",null,"DEBUG PINCEAU",-1),a=e("div",{class:"my-button"},"Hello",-1);function r(l,u){return s(),n(_,null,[o,a],64)}const i=t(c,[["render",r]]);export{i as default};

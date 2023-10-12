@@ -27,3 +27,18 @@ def: |
 ---
 ::
 
+# Graphe carnets
+::ppw-mermaid
+---
+def: |
+    flowchart TD
+    entreprise_Alcove_EE --> carnet_Paul
+    entreprise_Alcove_EE --> carnet_Alain
+    carnet_Paul --> attestation_électrique
+    carnet_Paul --> attestation_SCN2
+    carnet_Paul --> attestation_cariste
+    carnet_Paul --> attestation_nacelle
+    attestation_électrique --> trihom
+    attestation_SCN2 --> trihom
+---
+::    

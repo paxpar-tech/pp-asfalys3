@@ -82,6 +82,7 @@ jobs:
         env:
           PAXPAR_URL: https://paxpar.tech
           PAXPAR_KEY: IsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFz2253549e9a16beaaa0c314d2bAsImV4cCI6MjAxMTI4Nz
+          NUXT_PUBLIC_BACKEND_FORCED: https://dev.paxpar.tech
           NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
           NUXT_PUBLIC_STUDIO_TOKENS: 7f6bb135fcf045e2f2fbe590916a884866ee432dec1993e1c4eb07f71e5b75d3
           SUPABASE_URL: https://eiazjrfkvoeghuivvfau.supabase.co

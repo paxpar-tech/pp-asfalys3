@@ -12,7 +12,7 @@ title: santé - accès site
 
 |[]|[]| []
 ----|-----------|-----
-[Jackie Dubuisson](/actor/valerie)|03 octobre 2023|Conformité,Confiance| 
+[Jacky Dubuisson](/actor/valerie)|03 octobre 2023|Conformité,Confiance| 
 
 ## Suis-je sûr d'avoir délivré les badges d'accès aux personnes vraiment habilitées ? 
 

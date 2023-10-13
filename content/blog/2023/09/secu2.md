@@ -12,7 +12,7 @@ title: santé - lourd
 
 |[]|[]| []
 ----|-----------|-----
-[Jackie Dubuisson](/actor/valerie)|10 septembre 2023|Conformité,Confiance| 
+[Jacky Dubuisson](/actor/valerie)|10 septembre 2023|Conformité,Confiance| 
 
 ## Le médecin du travail... Il en dit quoi ?
 

@@ -8,7 +8,7 @@ title: santé - lourd
 
 # Santé au travail : porter de lourdes charges
 
-![pexels-yury-kim-585419.jpg](/pexels-yury-kim-585419.jpg)
+![secu2.jpg](/secu2.jpg)
 
 |[]|[]| []
 ----|-----------|-----

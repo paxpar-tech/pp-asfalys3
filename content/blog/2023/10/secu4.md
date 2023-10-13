@@ -8,7 +8,7 @@ title: réglementation - feu
 
 # En cas d'incendie, mon entreprise est-elle en règle ?
 
-![pexels-pixabay-260367.jpg](/pexels-pixabay-260367.jpg)
+![secu4.jpg](/secu4.jpg)
 
 |[]|[]| []
 ----|-----------|-----

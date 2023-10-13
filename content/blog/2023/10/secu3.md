@@ -8,7 +8,7 @@ title: santé - accès site
 
 # Périmètre d'accès : pour que mon site soit sécurisé
 
-![badge-acces.png](/badge-acces.png)
+![secu3.jpeg](/secu3.jpeg)
 
 |[]|[]| []
 ----|-----------|-----

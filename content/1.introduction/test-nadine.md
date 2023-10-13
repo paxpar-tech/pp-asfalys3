@@ -105,7 +105,7 @@ def: |
 
 ## Carnet
 
-## Paul et Alain
+### Paul et Alain
 
 
 
@@ -141,7 +141,7 @@ def: |
 ---
 ::
 
-## Gérard et Nadège
+### Gérard et Nadège
 
 ::ppw-mermaid
 ---
@@ -173,21 +173,8 @@ def: |
 ---
 :: 
 
-## Edouard
+### Edouard
 
-::ppw-mermaid
----
-def: |
-    flowchart TD
-    ent_EdDup --> carnet_Edouard
-    carnet_Edouard --> attestation_électrique    
-    carnet_Edouard --> attestation_soudeur
-    carnet_Edouard --> attestation_SCN2
-    attestation_soudeur --> Aftral
-    attestation_SCN2 --> Trihom
-    attestation_électrique --> Trihom
----
-::
 
 ::ppw-mermaid
 ---
@@ -198,66 +185,71 @@ def: |
     ent_EdDup --> c_edouard
     c_edouard --> elec[attestation électrique]    
     c_edouard --> soud[attestation_soudeur]
-    c_edouard --> attestation_SCN2
-    attestation_soudeur --> Aftral
-    attestation_SCN2 --> Trihom
-    attestation_électrique --> Trihom
+    c_edouard --> scn[attestation SCN2]
+    soud --> af[Aftral]
+    scn --> t[Trihom]
+    elec --> t1[Trihom]
 ---
 ::
 
-## Sophie
+### Sophie
+
 
 ::ppw-mermaid
 ---
 def: |
     flowchart TD
-    ent_Daney --> carnet_Sophie
-    carnet_Sophie --> attestation_électrique    
-    carnet_Sophie --> attestation_soudeur
-    carnet_Sophie --> attestation_SCN2
-    carnet_Sophie --> attestation_cariste
-    carnet_Sophie --> attestation_fimo        
-    attestation_soudeur --> Aftral
-    attestation_SCN2 --> Trihom
-    attestation_électrique --> Trihom
-    attestation_cariste --> Aftral
-    attestation_fimo --> Aftral
+    c_sophie[["📑 Carnet de Sophie"]]    
+    ent_Daney --> c_sophie
+    c_sophie --> elec[attestation électrique]    
+    c_sophie --> soud[attestation soudeur]
+    c_sophie --> scn[attestation SCN2]
+    c_sophie --> car[attestation cariste]
+    c_sophie --> fim[attestation fimo]        
+    soud--> af[Aftral]
+    scn --> t[Trihom]
+    elec --> t1[Trihom]
+    car --> af1[Aftral]
+    fim --> af2[Aftral]
 ---
 ::
 
-## Adrien et Peggy
+### Adrien et Peggy
+
 
 ::ppw-mermaid
 ---
 def: |
     flowchart TD
-    ent_Buripanera --> carnet_Adrien
-    ent_Buripanera --> carnet_Peggy
+    c_adrien[["📑 Carnet de Adrien"]]     
+    ent_Buripanera --> c_adrien
+    ent_Buripanera --> c_peggy
 
     %% Adrien   
-    carnet_Adrien --> attestation_soudeur
-    carnet_Adrien --> attestation_cariste 
-    carnet_Adrien --> attestation_SCN2          
-    attestation_soudeur --> Aftral
-    attestation_SCN2 --> Trihom
-    attestation_électrique --> Trihom
-    attestation_cariste --> Aftral
-    attestation_nacelle --> Aftral
+    c_adrien --> soud[attestation soudeur]
+    c_adrien --> car[attestation cariste] 
+    c_adrien --> scn[attestation SCN2]          
+    soud --> af[Aftral]
+    scn --> t[Trihom]
+    elec --> t1[Trihom]
+    car --> af1[Aftral]
+    nac --> af2[Aftral]
+
 
     %% Peggy
-    carnet_Peggy --> attestation_SCN2
-    carnet_Peggy --> attestation_nacelle      
-    carnet_Peggy --> attestation_électrique
+    c_peggy[["📑 Carnet de Peggy"]]     
+    c_peggy --> scn1[attestation SCN2]
+    c_peggy --> nac[attestation nacelle]      
+    c_peggy --> elec[attestation électrique]
+    scn1 --> t2[Trihom]    
 
 
 ---
 ::
-
-
 
 ## Passeport
 
-## Paul
+### Paul
 
 ::ppw-mermaid
 ---
@@ -270,7 +262,19 @@ def: |
 ---
 ::
 
-## Alain
+::ppw-mermaid
+---
+def: |
+    flowchart TD
+    p_paul[["📑 Passeport de Paul"]]      
+    p_paul --> carnet_Paul  
+    p_paul --> fiche_de_poste_Paul
+    p_paul --> certificat_aptitude_Paul
+
+---
+::
+
+### Alain
 
 ::ppw-mermaid
 ---
@@ -283,7 +287,7 @@ def: |
 ---
 ::
 
-## Edouard
+### Edouard
 
 ::ppw-mermaid
 ---
@@ -296,7 +300,7 @@ def: |
 ---
 ::
 
-## Gérard
+### Gérard
 
 ::ppw-mermaid
 ---
@@ -309,7 +313,7 @@ def: |
 ---
 ::
 
-## Nadège
+### Nadège
 
 ::ppw-mermaid
 ---
@@ -322,7 +326,7 @@ def: |
 ---
 ::
 
-## Adrien
+### Adrien
 
 ::ppw-mermaid
 ---
@@ -335,7 +339,7 @@ def: |
 ---
 ::
 
-## Peggy
+### Peggy
 
 ::ppw-mermaid
 ---
@@ -348,7 +352,7 @@ def: |
 ---
 ::
 
-## Sophie
+### Sophie
 
 ::ppw-mermaid
 ---
@@ -363,7 +367,7 @@ def: |
 
 ## Dossier Entreprise 
 
-## Alcove EE
+### Alcove EE
 
 ::ppw-mermaid
 ---
@@ -379,7 +383,7 @@ def: |
 ---
 ::
 
-## Vinci
+### Vinci
 
 ::ppw-mermaid
 ---
@@ -395,7 +399,7 @@ def: |
 ---
 ::
 
-## EdDup
+### EdDup
 
 ::ppw-mermaid
 ---
@@ -410,7 +414,7 @@ def: |
 ---
 ::
 
-## Daney
+### Daney
 
 ::ppw-mermaid
 ---
@@ -425,7 +429,7 @@ def: |
 ---
 ::
 
-## Buripanera
+### Buripanera
 
 ::ppw-mermaid
 ---
@@ -443,7 +447,7 @@ def: |
 
 ## Valise mission
 
-## Alcove EE 
+### Alcove EE 
 
 ::ppw-mermaid
 ---
@@ -456,7 +460,7 @@ def: |
 ---
 ::
 
-## Vinci EE
+### Vinci EE
 
 ::ppw-mermaid
 ---

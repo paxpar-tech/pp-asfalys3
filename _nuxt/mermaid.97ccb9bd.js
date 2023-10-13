@@ -1,1 +1,0 @@
-import{d as o,o as a,b as t,L as s,w as r,g as _,K as l,X as u}from"./entry.1b7ba420.js";import{I as p}from"./index.esm.4ce746ec.js";const i=o({__name:"mermaid",props:{def:{default:""}},setup(c){return a(()=>{}),(e,m)=>{const n=u;return t(),s(n,null,{default:r(()=>[_(l(p),{value:e.def},null,8,["value"])]),_:1})}}});export{i as default};

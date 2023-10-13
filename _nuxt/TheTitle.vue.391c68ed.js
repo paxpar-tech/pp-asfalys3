@@ -1,1 +1,0 @@
-import{r as s}from"./slot.f27de3af.js";import{d as t,a5 as a,o as n,b as l,c as r}from"./entry.1b7ba420.js";const c={class:"text-4xl"},m=t({__name:"TheTitle",setup(p){const e=a();return n(()=>{console.log("slots.default=",e.default())}),(o,_)=>(l(),r("h1",c,[s(o.$slots,"default",{unwrap:"p"})]))}});export{m as _};

@@ -1,3 +1,0 @@
-# Philippe
-
-test article FFF

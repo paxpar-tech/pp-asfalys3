@@ -1,6 +1,6 @@
 ---
 model: article
-image: 
+image: /secu3.jpeg
 description: 📖 Lire l'article
 createdAt: 2023-10-03
 title: santé - accès site

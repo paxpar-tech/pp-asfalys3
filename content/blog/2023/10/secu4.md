@@ -1,6 +1,6 @@
 ---
 model: article
-image: 
+image: /secu4.jpg
 description: 📖 Lire l'article
 createdAt: 2023-10-12
 title: réglementation - feu

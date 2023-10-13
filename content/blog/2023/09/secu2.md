@@ -1,6 +1,6 @@
 ---
 model: article
-image: 
+image: /secu2.jpg
 description: 📖 Lire l'article
 createdAt: 2023-09-10
 title: santé - lourd

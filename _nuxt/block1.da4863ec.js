@@ -1,1 +1,0 @@
-import{k as s,b as t,c as n,an as a,F as c,e}from"./entry.6e3cf9f3.js";const l={},r=e("h1",null,"block 1 START",-1),_=e("h1",null,"block 1 END",-1);function d(o,p,u,f,i,k){return t(),n(c,null,[r,a(o.$slots,"default"),_],64)}const m=s(l,[["render",d]]);export{m as default};

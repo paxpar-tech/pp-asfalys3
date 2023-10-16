@@ -255,17 +255,6 @@ def: |
 ---
 def: |
     flowchart TD
-    passeport_Paul --> carnet_Paul  
-    passeport_Paul --> fiche_de_poste_Paul
-    passeport_Paul --> certificat_aptitude_Paul
-
----
-::
-
-::ppw-mermaid
----
-def: |
-    flowchart TD
     p_paul[["📑 Passeport de Paul"]]      
     p_paul --> carnet_Paul  
     p_paul --> fiche_de_poste_Paul

@@ -12,7 +12,7 @@ Voici les personnes concernées:
 * chef de projet 👨
 * responsable entreprise 1 🤵
 * responsable entreprise 2 👩
-* responsable entreprise 3 
+* responsable entreprise 3 🧔
 * responsable entreprise 4 👷
 * reponsable maintenance entreprise 4 🤠
 * client final 🥸

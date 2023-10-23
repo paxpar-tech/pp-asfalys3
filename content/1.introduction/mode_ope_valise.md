@@ -126,7 +126,7 @@ Voici les étapes pour le chef de projet:
 1. 🥸 reçoit un courriel avec un document valise unique
 1. il peut consulter le PDF qui contient 85 documents PDF joints et plus de 150 signatures électroniques
 1. la vérification manuelle est fastidieuse
-1. 📄 il peut déposer ce PDF sur la plateforme `🌐asfalys.document.legal` qui va effectuer instantanement toutes les vérifications necessaires
+1. 📄 il peut déposer ce PDF sur la plateforme `🌐asfalys.document.legal` qui va effectuer instantanément toutes les vérifications necessaires
 1. ✅ il obtient en quelques secondes le détail des contrôles effectués:
 
     🔍 cohérence des dates avec la mission
